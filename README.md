@@ -64,5 +64,149 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-yappy-biz is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://yappy.biz/
+Yappy is a voice‑agent application for macOS that lets users dictate text and issue commands by holding modifier keys. It operates entirely on‑device, ensuring speech data never leaves the user’s computer. The service offers a free, read‑only public API exposing factual information about Yappy’s features, usage statistics, and supported commands, hosted at https://yappy.biz/api/v1.
+
+**Areas:** Voice · macOS · Automation · Accessibility · Productivity
+
+## yappy-biz on APIs.io
+
+Everything profiled for yappy-biz is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/yappy-biz/](https://apis.io/providers/yappy-biz/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [yappy-biz Batch API](https://apis.io/apis/yappy-biz/yappy-biz-batch-api/) — Many reads, one request, one unit of rate limit.
+- [yappy-biz Commerce API](https://apis.io/apis/yappy-biz/yappy-biz-commerce-api/) — What Yappy and its backends cost.
+- [yappy-biz Discovery API](https://apis.io/apis/yappy-biz/yappy-biz-discovery-api/) — Finding your way around the API.
+- [yappy-biz Documentation API](https://apis.io/apis/yappy-biz/yappy-biz-documentation-api/) — Documentation pages, FAQ, and search.
+- [yappy-biz Exports API](https://apis.io/apis/yappy-biz/yappy-biz-exports-api/) — Asynchronous corpus exports.
+- [yappy-biz Product API](https://apis.io/apis/yappy-biz/yappy-biz-product-api/) — Features, requirements, and machine compatibility.
+- [yappy-biz Releases API](https://apis.io/apis/yappy-biz/yappy-biz-releases-api/) — Yappy's macOS release history and current version.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Yappy Biz Agentic Access](https://apis.io/agentic-access/yappy-biz/yappy-biz-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Compatibility](https://apis.io/schemas/yappy-biz/yappy-biz-compatibility/)
+- [Doc](https://apis.io/schemas/yappy-biz/yappy-biz-doc/)
+- [Job](https://apis.io/schemas/yappy-biz/yappy-biz-job/)
+- [Pricing](https://apis.io/schemas/yappy-biz/yappy-biz-pricing/)
+- [Requirements](https://apis.io/schemas/yappy-biz/yappy-biz-requirements/)
+- [ServiceIndex](https://apis.io/schemas/yappy-biz/yappy-biz-service-index/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Yappy Biz Context](https://apis.io/jsonld/yappy-biz/yappy-biz-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [yappy-biz API Rules](https://apis.io/rules/yappy-biz/yappy-biz-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Yappy Biz Authentication](https://apis.io/security/yappy-biz/yappy-biz-authentication/)
+- [Yappy Biz Domain Security](https://apis.io/security/yappy-biz/yappy-biz-domain-security/)
+- [Yappy Biz Vulnerability Disclosure](https://apis.io/security/yappy-biz/yappy-biz-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Yappy Biz Scopes](https://apis.io/scopes/yappy-biz/yappy-biz-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Yappy Biz Plans Pricing](https://apis.io/plans/yappy-biz/yappy-biz-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Yappy Biz Rate Limits](https://apis.io/rate-limits/yappy-biz/yappy-biz-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://yappy.biz/)
+- [Documentation](https://yappy.biz/llms.txt)
+- [Getting started](https://yappy.biz/auth.md)
+- [API reference](https://yappy.biz/api/)
+- [Pricing](https://yappy.biz/pricing)
+- [Sign up](https://yappy.biz/oauth/register)
+- [Changelog](https://yappy.biz/docs/changelog)
+- [Security](https://yappy.biz/contact/)
+- [Privacy policy](https://yappy.biz/privacy)
+- [GitHub](https://github.com/OperatingSystem-1)
+
+## API Evangelist rating
+
+**Kin Score 63.3** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 62.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 67.9 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 34.2 |
+
+**Agent readiness 67.6** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 36.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/yappy-biz/](https://apis.io/providers/yappy-biz/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for yappy-biz: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/yappy-biz/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
